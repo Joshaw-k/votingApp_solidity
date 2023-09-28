@@ -5,17 +5,6 @@ import "dotenv/config";
 const config: HardhatUserConfig = {
   solidity: "0.8.19",
   networks: {
-    // sepolia: {
-    //   url: process.env.SEPOLIARPC,
-    //   // @ts-ignore
-    //   accounts: [
-    //     process.env.PRIVATE_KEY_1,
-    //     process.env.PRIVATE_KEY_2,
-    //     process.env.PRIVATE_KEY_3,
-    //     process.env.PRIVATE_KEY_4,
-    //     process.env.PRIVATE_KEY_5,
-    //   ],
-    // },
     swisstronik: {
       url: "https://json-rpc.testnet.swisstronik.com/",
       accounts: [
